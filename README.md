@@ -7,7 +7,7 @@
 ### Detecting and Mitigating Bias in Machine Learning Models
 
 <p>
-  <a href="https://github.com/your-org/detecting-and-mitigating-bias-in-machine-learning-models/actions/workflows/ci.yml">
+  <a href="ci.yml">
     <img src="https://github.com/your-org/detecting-and-mitigating-bias-in-machine-learning-models/actions/workflows/ci.yml/badge.svg" alt="CI">
   </a>
   <a href="https://github.com/your-org/detecting-and-mitigating-bias-in-machine-learning-models/actions/workflows/codeql.yml">
