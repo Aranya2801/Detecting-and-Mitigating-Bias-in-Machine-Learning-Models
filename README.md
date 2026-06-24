@@ -9,9 +9,7 @@
 <p>
   
   </a>
-  <a href="https://github.com/your-org/detecting-and-mitigating-bias-in-machine-learning-models/actions/workflows/codeql.yml">
-    <img src="https://github.com/your-org/detecting-and-mitigating-bias-in-machine-learning-models/actions/workflows/codeql.yml/badge.svg" alt="CodeQL">
-  </a>
+  
   <img src="https://img.shields.io/badge/Python-3.11+-3776ab?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=black" alt="React">
