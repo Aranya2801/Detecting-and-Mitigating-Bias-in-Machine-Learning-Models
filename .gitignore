@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node / React
+node_modules/
+frontend/build/
+frontend/dist/
+.npm/
+
+# ML artifacts
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+*.pkl
+*.joblib
+*.h5
+mlruns/
+wandb/
+.dvc/cache
+*.dvc.lock
+
+# Data
+datasets/raw/*
+!datasets/raw/.gitkeep
+datasets/processed/*
+!datasets/processed/.gitkeep
+
+# Reports
+reports/generated/*
+!reports/generated/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+.docker/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Build
+dist/
+build/

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this platform in research, please cite:"
+title: "AI Fairness Platform: Detecting and Mitigating Bias in Machine Learning Models"
+version: 1.0.0
+date-released: 2026-06-17
+repository-code: "https://github.com/your-org/detecting-and-mitigating-bias-in-machine-learning-models"
+license: MIT
+keywords:
+  - algorithmic fairness
+  - bias detection
+  - bias mitigation
+  - responsible AI
+  - fairlearn
+  - aif360
+  - machine learning
+  - disparate impact
+  - equalized odds

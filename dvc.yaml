@@ -1,0 +1,24 @@
+stages:
+  preprocess:
+    cmd: python scripts/preprocess_datasets.py --all
+    deps:
+      - scripts/preprocess_datasets.py
+      - datasets/raw
+    outs:
+      - datasets/processed
+
+  train_adult:
+    cmd: >
+      python -c "
+      import sys; sys.path.insert(0,'backend');
+      from app.services.dataset_service import get_dataset;
+      from app.services.model_service import ModelTrainer;
+      b = get_dataset('adult');
+      t = ModelTrainer();
+      r = t.train(b, 'logistic_regression');
+      print(f'Adult LR: acc={r.accuracy:.4f}, auc={r.auc:.4f}')
+      "
+    deps:
+      - datasets/processed/adult_train.csv
+    outs:
+      - models/checkpoints
